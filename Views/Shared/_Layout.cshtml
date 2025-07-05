@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orçun ÖZDEMİR</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/orcun.styles.css" asp-append-version="true" />
+    <link rel="icon" href="~/icon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light white border-bottom box-shadow mb-3"
+            style="background-color:rgb(0, 0, 0); ">
+            <div class="container-fluid">
+
+                <a asp-controller="Home" asp-action="Index"><img src="~/res/navbar.png"
+                        style="width: 150px; height: 40px;" class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation custom-center" style="background-color: white;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li>
+                            <a asp-area="" asp-controller="Home" asp-action="Index">Ana Sayfa</a>
+                        </li>
+                        <li>
+                            <a href="~/#muziklerim">Müziklerim</a>
+                        </li>
+                        <li>
+                            <a href="~/#hakkimda">Hakkımda</a>
+                        </li>
+                        <li>
+                            <a asp-area="" asp-controller="iletisim" asp-action="iletisim">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div>
+            <p style="color: white;">BENİ BAŞKA YERLERDEN'DE TAKİP ET</p>
+            <a href="https://www.facebook.com/orcunface" target="_blank"><img src="~/res/facebook.png" width="30"
+                    height="30" /></a>
+            <a href="https://www.instagram.com/orcunozdemir/" target="_blank"><img src="~/res/instagram.png" width="30"
+                    height="30" /></a>
+            <a href="https://www.youtube.com/orcunozdemir/videos" target="_blank"><img src="~/res/youtube.png"
+                    width="30" height="30" /></a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

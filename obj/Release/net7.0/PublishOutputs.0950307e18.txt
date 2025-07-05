@@ -1,0 +1,6 @@
+C:\inetpub\wwwroot\orcun\orcun\bin\Release\net7.0\publish\appsettings.Development.json
+C:\inetpub\wwwroot\orcun\orcun\bin\Release\net7.0\publish\appsettings.json
+C:\inetpub\wwwroot\orcun\orcun\bin\Release\net7.0\publish\orcun.dll
+C:\inetpub\wwwroot\orcun\orcun\bin\Release\net7.0\publish\orcun.deps.json
+C:\inetpub\wwwroot\orcun\orcun\bin\Release\net7.0\publish\orcun.runtimeconfig.json
+C:\inetpub\wwwroot\orcun\orcun\bin\Release\net7.0\publish\orcun.pdb

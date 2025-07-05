@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mhbMrjMOfjE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emirh\\Desktop\\git\\orcun\\orcun\\orcun.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emirh\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\emirh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\emirh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\emirh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
